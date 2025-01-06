@@ -1,0 +1,11 @@
+> kendall_alcohol_health = cor.test(as.numeric(SC$Alcohol), as.numeric(SC$health), method = "kendall")
+> print(kendall_alcohol_health)
+
+	Kendall's rank correlation tau
+
+data:  as.numeric(SC$Alcohol) and as.numeric(SC$health)
+z = 2.022, p-value = 0.04318
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+       tau 
+0.08243469 
